@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gabriele D'Annunzio</title>
+  <link rel="stylesheet" href="stili.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <h1>Gabriele D'Annunzio</h1>
+      <p class="sottotitolo">«Io non vivo, io ardo. La vita è arte, e ogni giorno una scena da celebrare.»</p>
+    </div>
+
+    <nav>
+      <ul class="menu">
+        <li><a href="#bio">Biografia</a></li>
+        <li><a href="#movimento-poetica">Poetica</a></li>
+        <li><a href="#opere-principali">Opere</a></li>
+        <li><a href="#imprese">Imprese</a></li>
+        <li><a href="#sport">Sport</a></li>
+        <li><a href="#vittoriale">Vittoriale</a></li>
+        <li><a href="#sitografia">Fonti</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- BIOGRAFIA -->
+    <section id="bio">
+      <h2>Chi sono</h2>
+      <p>
+        Io sono Gabriele d’Annunzio: poeta, romanziere, uomo di scena e d’azione.
+Nacqui a Pescara nel 1863, tra il mare e la luce d’Abruzzo, e fin da giovane compresi che la vita non è da vivere, ma da scolpire. Ogni mio gesto, ogni parola, ogni respiro fu un atto estetico, un’offerta alla bellezza.
+
+Sin dai primi versi cercai un linguaggio che fosse musica e colore, un’arte che non descrivesse il mondo ma lo trasfigurasse. Con Il Piacere consacrai il culto dell’eleganza e dell’assoluto; con le mie poesie immersi la parola nella natura, nella luce, nel desiderio.
+
+Ma io non fui soltanto scrittore: fui soldato, aviatore, ardito. Durante la Grande Guerra osai imprese che divennero leggenda, perché la vita, per me, doveva sempre superare la pagina. Io non raccontavo l’eroismo: lo compivo.
+
+Le mie passioni, le mie amanti, i miei viaggi, le mie battaglie: tutto fu materia di arte.
+Tutto fu fiamma.
+
+Oggi il Vittoriale degli Italiani custodisce la mia memoria, il mio stile, la mia visione.
+Io non ho lasciato un’esistenza: ho lasciato un’opera.
+      </p>
+
+      <div>
+        <figure>
+          <img src="foto/foto giovanili/bimbo.jpg" alt="Ritratto giovanile di D'Annunzio">
+          <figcaption>D’Annunzio bimbo</figcaption>
+        </figure>
+        <figure>
+          <img src="foto/foto adulto/R.jpg" alt="D'Annunzio poeta">
+          <figcaption>D’Annunzio poeta</figcaption>
+        </figure>
+        <figure>
+          <img src="foto/foto adulto/militare.jpg" alt="D'Annunzio militare">
+          <figcaption>D’Annunzio militare</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- MOVIMENTO E POETICA -->
+    <section id="movimento-poetica">
+      <h2>Movimento Letterario – Decadentismo / Estetismo</h2>
+      <ul>
+        <li>Ricerca del bello come valore assoluto</li>
+        <li>Culto della sensualità e dei sensi</li>
+        <li>Attenzione minuziosa ai dettagli, alle atmosfere, ai simboli</li>
+        <li>Riflessione sul ruolo dell’arte nella vita</li>
+        <li>D’Annunzio unisce vita e arte: l’esistenza diventa opera estetica</li>
+      </ul>
+
+      <h2>Poetica</h2>
+      <ul>
+        <li>Temi ricorrenti: eros, morte, eroismo, natura simbolica, culto del sé e della bellezza</li>
+        <li>Stile: linguaggio prezioso, metaforico, musicale, ricco di immagini sensoriali</li>
+        <li>Messaggi: arte e bellezza come valori supremi; vivere intensamente, con passione e audacia</li>
+      </ul>
+    </section>
+
+    <!-- OPERE PRINCIPALI -->
+    <section id="opere-principali">
+
+      <h2>Opere Principali</h2>
+
+      <h3>le LAUDI</h3>
+
+      <article class="opera" onclick="apriPopupMaia()">
+          <h4>Maia (1903)</h4>
+
+          <p>
+              Poema autobiografico scritto con versi liberi che esalta i valori del futurismo.
+          </p>
+
+          <img src="foto/copertine/maia.jpg" alt="maia">
+      </article>
+      <article class="opera" onclick="apriPopupElettra()">
+          <h4>Elettra (1903)</h4>
+
+          <p>
+              Raccoglie poesie celebrative di propaganda politica.
+              Vi è un polo positivo, rappresentato da un passato e da un futuro di gloria e di bellezza,
+              che si contrappongono a un polo negativo, un presente da riscattare.
+              Nelle poesie della raccolta esplode l'ideologia nazionalistica e bellicista.
+          </p>
+
+          <img src="foto/copertine/elettra.jpg" alt="elettra">
+      </article>
+      <article class="opera" onclick="apriPopupAlcyone()">
+          <h4>Alcyone (1903)</h4>
+
+          <p>
+              Raccolta poetica della fase simbolista, dove natura,
+              mito e sentimento si fondono.
+              Include la celebre lirica “La pioggia nel pineto”.
+          </p>
+
+          <img src="foto/copertine/alcyone.jpg" alt="alcyone">
+      </article>
+
+      <!-- POPUP -->
+      <div id="popupmaia" class="popup">
+
+          <div class="contenuto-popup">
+
+              <span class="chiudi" onclick="chiudiPopupMaia()">&times;</span>
+
+              <h2>Approfondimenti su Maia</h2>
+
+              <h3>etseta-superuomo</h3>
+              <p>
+                  Il personaggio di Maia rappresenta l'ideale dell'uomo moderno, superiore e straordinario. 
+                  Non fugge di fronte alla realtà industriale come gli altri esteti, ma vede la modernità come un opportunità per
+                  DISTINGUERSI DALLA MASSA e scopre la bellezza del capitalismo.
+                  In questo personaggio troviamo i caratteri del futurismo: attivismo eroico, aggressività, stile eccessivo, aulico ed elaborato.
+              </p>
+          </div>
+
+      </div>
+      <div id="popupelettra" class="popup">
+
+          <div class="contenuto-popup">
+
+              <span class="chiudi" onclick="chiudiPopupElettra()">&times;</span>
+
+              <h2>Approfondimenti su Elettra</h2>
+
+              <h3>propaganda politica e tono bellicista</h3>
+              <p>
+                  Elettra è caratterizzata da un forte senso di patriottismo e da un tono bellicista che riflette l'ideologia nazionalista dell'epoca.
+                  Come vate, D'Annunzio utilizza il linguaggio per promuovere idee di nazionalismo e militarismo, cantando un PASSATO GLOROSO
+                  che diventi MODELLO IDEALE per l'Italia (concetti poi ripresi da Mussolini).
+              </p>
+          </div>
+
+      </div>
+      <div id="popupalcyone" class="popup">
+
+          <div class="contenuto-popup">
+
+              <span class="chiudi" onclick="chiudiPopupAlcyone()">&times;</span>
+
+              <h2>Approfondimenti su Alcyone</h2>
+
+              <h3>simbolismo, panismo, vitalismo e spiritualità</h3>
+              <p>
+                  Alcyone è un'opera che rappresenta un diario ideale di una vacanza estiva che descrive le tappe di un viaggio 
+                  lungo l'Italia con la sua amata (Eleonora Duse: attrice di livello internazionale, che aveva aperto le porte di salotti a D'Annunzio).
+                  Viene usato uno stile elaborato, con un linguaggio analogico e molta musicalità.
+                  <br>PIENEZZA VITALISTICA: avvicinarsi a una condizione divina
+                  <br>PANISMO: fusione con la natura
+                  <br>SPIRITUALITÀ: ricerca di un significato più profondo attraverso evasione e contemplazione
+              </p>
+          </div>
+
+      </div>
+      <div id="popupmaia" class="popup">
+
+          <div class="contenuto-popup">
+
+              <span class="chiudi" onclick="chiudiPopupMaia()">&times;</span>
+
+              <h2>Approfondimenti su Maia</h2>
+
+              <h3>etseta-superuomo</h3>
+              <p>
+                  Il personaggio di Maia rappresenta l'ideale dell'uomo moderno, superiore e straordinario. 
+                  Non fugge di fronte alla realtà industriale come gli altri esteti, ma vede la modernità come un opportunità per
+                  DISTINGUERSI DALLA MASSA e scopre la bellezza del capitalismo.
+                  In questo personaggio troviamo i caratteri del futurismo: attivismo eroico, aggressività, stile eccessivo, aulico ed elaborato.
+              </p>
+          </div>
+
+      </div>
+
+      <script>
+      function apriPopupMaia(){
+          document.getElementById("popupmaia").style.display = "block";
+      }
+
+      function chiudiPopupMaia(){
+          document.getElementById("popupmaia").style.display = "none";
+      }
+
+      function apriPopupAlcyone(){
+          document.getElementById("popupalcyone").style.display = "block";
+      }
+
+      function chiudiPopupAlcyone(){
+          document.getElementById("popupalcyone").style.display = "none";
+      }
+      function apriPopupElettra(){
+          document.getElementById("popupelettra").style.display = "block";
+      }
+
+      function chiudiPopupElettra(){
+          document.getElementById("popupelettra").style.display = "none";
+      }
+      </script>
+
+      <h3>Teatro</h3>
+
+      <article class="opera">
+        <h4>La figlia di Iorio (1904)</h4>
+        <p>Tragedia in versi ambientata in Abruzzo, che unisce folklore, natura e destino tragico.</p>
+        <img src="foto/copertine/lafigliadiiorio.jpg" alt="La figlia di Iorio">
+      </article>
+
+      <article class="opera">
+        <h4>Francesca da Rimini (1902)</h4>
+        <p>Dramma ispirato alla Divina Commedia, incentrato sulla passione travolgente e sul destino.</p>
+        <img src="foto/copertine/francescadaRimini.jpg" alt="Francesca da Rimini">
+      </article>
+
+      <h3>Narrativa</h3>
+
+      <article class="opera" onclick="apriPopupPiacere()">
+        <h4>Il piacere (1889)</h4>
+        <p>Romanzo simbolo dell’estetismo e del decadentismo, celebra l’eros e la bellezza come valori assoluti.</p>
+        <img src="foto/copertine/ilpiacere.jpg" alt="ilpiacere">
+      </article>
+
+      <div id="popuppiacere" class="popup">
+
+        <div class="contenuto-popup">
+
+            <span class="chiudi" onclick="chiudiPopupPiacere()">&times;</span>
+
+            <h2>Approfondimenti su "il Piacere"</h2>
+
+            <h3>il manifesto estetico di Gabriele D’Annunzio</h3>
+            <p>
+                "Il Piacere" è una storia di relazioni che esplora il piacere sensoriale ed edonistico (egotismo). Il protagonista Andrea Sperelli (personaggio che rappresenta D’Annunzio)
+                è un giovane aristocratico educato dal padre attraverso viaggi. Egli lo aveva formato a <span style="font-weight: bold;">vivere la propria vita come un opera d'arte</span>.
+                Sperelli vive anche le relazioni come un opera d'arte e frequenta due donne contemporaneamente: ELENA MUTI (la Femme Fatal, la Salomet, espressione della sensualità e del piacere)
+                e MARIA FERRES (la donna ideale, inarrivabile, simbolo della purezza e della spiritualità). Nel cercare di fondere le due relazioni Andrea Sperelli rovina tutto e le perde entrambe.
+            </p>
+        </div>
+
+      </div>
+
+      <script>
+      function apriPopupPiacere(){
+          document.getElementById("popuppiacere").style.display = "block";
+      }
+
+      function chiudiPopupPiacere(){
+          document.getElementById("popuppiacere").style.display = "none";
+      }</script>
+
+
+      <article class="opera">
+        <h4>Il trionfo della morte (1894)</h4>
+        <p>Romanzo che esplora la decadenza morale e la ricerca dell’estasi, temi tipici del decadentismo.</p>
+        <img src="foto/copertine/iltrionfodellamorte.jpg" alt="Il trionfo della morte">
+      </article>
+
+    </section>
+
+
+
+    <!-- CITAZIONI -->
+    <section id="citazioni">
+      <h2>Citazioni</h2>
+
+      <div>
+        <blockquote>
+          «Quel che c’è in me di misterioso, di sfuggente, di incomprensibile, lasciatemelo.»
+          <cite>— Gabriele D’Annunzio</cite>
+        </blockquote>
+
+        <blockquote>
+          «Ama la vita e la vita ti amerà.»
+          <cite>— Gabriele D’Annunzio</cite>
+        </blockquote>
+
+        <blockquote>
+          «Bisogna fare della propria vita come si fa un’opera d’arte.»
+          <cite>— Gabriele D’Annunzio</cite>
+        </blockquote>
+      </div>
+    </section>
+
+
+    <!-- IMPRESE -->  
+    <section id="imprese">
+      <h2>Le mie Imprese</h2>
+      <p>
+        Io non fui soltanto poeta: fui uomo d’azione, creatore di gesti che valsero più di mille parole.
+        La mia vita fu un susseguirsi di imprese ardite, nate dal desiderio di superare il limite,
+        di trasformare l’esistenza in leggenda.
+      </p>
+      <h3>L’Eroe e il Mito</h3>
+      <p>
+        Ogni mia impresa nacque da un’unica certezza:
+        che l’uomo deve osare, sempre.
+        Che la vita, per essere degna, deve essere vissuta come un’opera.
+        Io non cercavo la gloria: la creavo.
+        E ancora oggi, chi ascolta il mio nome non ricorda solo i miei libri,
+        ma i miei gesti, le mie sfide, il mio ardore.
+      </p>
+
+      <article class="impresa">
+        <h3>Il Volo su Vienna</h3>
+        <p>
+          Quando il cielo divenne campo di battaglia, io lo scelsi come mio regno.
+          Nel celebre volo su Vienna non portai bombe, ma fogli di carta: parole, messaggi, sfida.
+          Volevo dimostrare che l’audacia può essere più potente della distruzione.
+          Sorvolai la città nemica come un’ombra luminosa, lasciando cadere non morte, ma pensiero.
+        </p>
+        <img src="foto/foto-generics/R.jpg" alt="Volantini su Vienna">
+        <img src="foto/foto-generics/gabriele_dannunzio_e_natale_palli_in_partenza_per_il_volo_su_vienna_0.jpg" alt="Volo su Vienna">
+      </article>
+
+      <article class="impresa">
+        <h3>La Beffa di Buccari</h3>
+        <p>
+          Nelle acque scure dell’Adriatico compii un’altra impresa che divenne mito.
+          Con pochi uomini, poche torpediniere e un coraggio smisurato, violai le difese austriache.
+          Non fu un attacco: fu un simbolo. Una beffa, sì, ma anche un grido di libertà,
+          un atto di volontà pura contro un nemico che credeva di essere inviolabile.
+        </p>
+        <img src="foto/foto-generics/beffadibucari.jpg" alt="Beffa di Buccari">
+      </article>
+
+      <article class="impresa">
+        <h3>L’Impresa di Fiume</h3>
+        <p>
+          Nel 1919 guidai quella che fu forse la mia più grande creazione: Fiume.
+          Dopo la prima guerra mondiale, non potevo permettere che una vittoria mutilata
+          spegnesse lo spirito italiano.
+          Non una conquista militare, ma un poema vivente. Una città trasformata in laboratorio
+          di arte, politica, musica, ardore. Io non governavo: ispiravo.
+          Fiume fu il mio teatro, il mio manifesto, la mia utopia.
+          Un luogo dove la parola diventava legge e la bellezza diventava forma di governo.
+        </p>
+        <img src="foto/foto adulto/fiume.jpg" alt="Impresa di Fiume">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39164.88045382956!2d14.40538100431689!3d45.34011862335583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4764a12517aabe2d%3A0x373c6f383dcbb670!2sFiume%2C%20Croazia!5e1!3m2!1sit!2sit!4v1779222694926!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </article>
+      <article class="impresa">
+        <h3>Fascismo</h3>
+        <p>
+          Negli anni successivi, il Duce tentò di avvicinarmi, di farmi simbolo del nuovo corso politico.
+  Io rimasi al Vittoriale, tra arte e memoria, lontano dalle stanze del potere.
+  La mia influenza fu più estetica che politica, più mitica che istituzionale.
+        </p>
+        <img src="foto/foto adulto/italien-italien-benito-mussolini-og-gabriele-dannunzio-petitti-no-1161.jpg" alt="D'Annunzio e Mussolini">
+        <img src="foto/foto adulto/gettyimages-3354983-612x612.jpg" alt="Mussolini e D'Annunzio">
+      </article>
+    </section>
+
+
+    <!-- SPORT -->
+    <section id="sport">
+      <h2>Lo Sport</h2>
+      <h3>Un mix di esaltazione, sbruffonaggine, gentilezza e rispetto</h3>
+      <p>
+        Il mio corpo fu sempre tempio e strumento. Amavo lo slancio, la forza, la disciplina del gesto atletico. Lo sport, per me, non era passatempo: era rito, era educazione dell’anima attraverso il vigore dei muscoli. Nelle corse, nelle nuotate, nelle prove fisiche che affrontai da giovane e da soldato, cercavo la stessa intensità che inseguivo nella poesia.
+Il movimento era libertà, era dominio di sé, era bellezza in azione.
+Io volevo essere atleta dello spirito e della carne.
+      </p>
+
+      <div>
+        <figure>
+          <img src="foto/foto-generics/fortitudomea.jpg" alt="Canottaggio">
+          <figcaption>Il canottaggio — armonia tra forza e ritmo</figcaption>
+        </figure>
+        <figure>
+          <img src="foto/foto-generics/dannunzio-equitazione.jpg" alt="D'Annunzio e l'equitazione">
+          <figcaption>L’equitazione — simbolo di eleganza e controllo</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- VITTORIALE -->
+    <section id="vittoriale">
+
+      <h2>Il Vittoriale degli Italiani</h2>
+
+      <p>
+        Il Vittoriale fu la mia ultima dimora, il luogo dove raccolsi la mia vita e la trasformai in monumento.
+        Non una semplice casa, ma un tempio di memoria, arte e simboli, affacciato sul lago di Garda.
+      </p>
+
+      <p>
+        Ogni stanza, ogni giardino, ogni oggetto racconta una parte di me: le imprese, le passioni, i sogni.
+        Volli che il Vittoriale fosse dono agli Italiani, testimonianza della mia esistenza vissuta come opera d’arte.
+      </p>
+
+      <img src="foto/foto-generics/vittoriale.jpg" alt="Il Vittoriale degli Italiani">
+      <img src="foto/foto-generics/gettyimages-869057796-612x612.jpg" alt="D’Annunzio nel Vittoriale">
+
+      <div id="mappa">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqifR1-EN76S__ECU9VoS41SRBDWN_OMw"></script>
+
+        <div id="dvMap" style="width:75%; height:200px;"></div>
+
+        <script>
+
+        var map;
+
+        $(document).ready(function() {
+
+            var latitudine = 45.623968;
+            var longitudine = 10.565168;
+
+            var mapOptions = {
+                center: new google.maps.LatLng(latitudine, longitudine),
+                zoom: 16.5,
+                mapTypeId: google.maps.MapTypeId.SATELLITE
+            };
+
+            map = new google.maps.Map(
+                document.getElementById("dvMap"),
+                mapOptions
+            );
+
+            new google.maps.Marker({
+                position: new google.maps.LatLng(latitudine, longitudine),
+                map: map
+            });
+
+        });
+
+        </script>
+
+      </div>
+
+    </section>
+
+
+    <!-- SITOGRAFIA -->
+    <section id="sitografia" class="card">
+      <h2>Sitografia e fonti</h2>
+      <ul class="sitografia">
+        <li><a href="https://www.treccani.it/enciclopedia/gabriele-d-annunzio" target="_blank">Treccani – Voce Gabriele D’Annunzio</a></li>
+        <li><a href="https://www.accademiadellacrusca.it/it/lingua-italiana" target="_blank">Accademia della Crusca – Analisi dello stile di D’Annunzio</a></li>
+        <li><a href="https://www.sapere.it/enciclopedia/Gabriele+D'Annunzio.html" target="_blank">Sapere.it – Biografia e opere</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube – Letture di poesie di D’Annunzio</a></li>
+        <li><a href="https://chatgpt.com/share/68ec94fe-8880-8000-b69d-b1bd4b617266" target="_blank">ChatGPT – Sintesi e curatela del materiale</a></li>
+        <li><a href="https://www.vittoriale.it/vita-gabriele-dannunzio/gabriele-dannunzio-la-morte/" target="_blank">Vittoriale – La morte di Gabriele D’Annunzio</a></li>
+        <li><a href="https://youtu.be/M1HJhS5Y5iw?si=ySmpPby8dqhG_dUb" target="_blank">YouTube – Gabriele D’Annunzio: l'immortalità</a></li>
+        <li><a href="https://youtu.be/hVhG2p1Hlow?si=Z79PR1YLGfs-SNZ-" target="_blank">YouTube – Gabriele D’Annunzio</a></li>
+        <li><a href="https://www.vittoriale.it/" target="_blank">Vittoriale – Sito ufficiale</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Realizzato da Federico Reina - 5F ITSI A.Volta</p>
+      <p class="footer-small">«Bisogna fare della propria vita come si fa un’opera d’arte.»</p>
+    </footer>
+
+  </main>
+</body>
+</html>
